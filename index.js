@@ -10,12 +10,12 @@ const app = express();
 //Inject body-parser middleware
 app.use(bodyParser.json());
 
-//Generate a set of Vapid Keys for encryption: Private and public.
+//Generate a set of Vapid Keys for encryption: Private and Public.
 //cd into the middleware in node_modules and run command "generate-vapid-keys". See screenshot.
 //Store Vapid keys in variables, and as environmental variables before deployment.
 
-const publicVapidKey = 'BCG1GstLf8WYNGolMFC8OsIQdjuEPf_C_sDuDjr5Zg9WVS4iCMXOeWlYOeF3Qs_6KfJSY_robOjKQikY_fhfhfhfhhh44';
-const privateVapidKeys = 'JRc4xu9RiiOGGGvZhhzyq36s1s6aaTZKkeTimgffhhfhghgfh777';
+const publicVapidKey = 'BCG1GstLf8WYNGolMFC8OsIQdjuEPf_C_sDuDjr5Zg9WVS4iCMXOeWlYOeF3Qs_6KfJSY_robOjKQikY_fhfhfhfhhh87';
+const privateVapidKeys = 'JRc4xu9RiiOGGGvZhhzyq36s1s6aaTZKkeTimgffhhfhghgfh7798';
 
 webpush.setVapidDetails('mailto:aahhhhxxxx@gmail.com', publicVapidKey, privateVapidKeys)
 
