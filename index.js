@@ -14,9 +14,6 @@ app.use(express.static(path.join(__dirname, "client")));
 //Inject body-parser middleware
 app.use(bodyParser.json());
 
-
-
-
 //Generate a set of Vapid Keys for encryption: Private and public.
 //cd into the middleware in node_modules and run command "generate-vapid-keys". See screenshot.
 //Store Vapid keys in variables, and as environmental variables before deployment.
