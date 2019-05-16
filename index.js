@@ -8,7 +8,6 @@ const path = require('path');
 const app = express();
 
 //Set and configure  Static folder
-
 app.use(express.static(path.join(__dirname, "client")));
 
 //Inject body-parser middleware
