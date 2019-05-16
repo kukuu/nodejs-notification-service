@@ -39,6 +39,6 @@ app.post('/subscribe', (req, res) => {
 
 
 //Run the app. 
-const port = 6000;
+const port = 6050;
 
 app.listen(port, () => console.log(`Server is running on ${port}`))
