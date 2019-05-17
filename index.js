@@ -8,6 +8,7 @@ const path = require('path');
 const app = express();
 
 //Set and configure  Static folder
+
 app.use(express.static(path.join(__dirname, "client")));
 
 //Inject body-parser middleware
@@ -42,6 +43,6 @@ app.post('/subscribe', (req, res) => {
 
 
 //Run the app. 
-const port = 6000;
+const port = 3065;
 
 app.listen(port, () => console.log(`Server is running on ${port}`))
