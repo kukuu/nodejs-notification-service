@@ -31,7 +31,19 @@ async function send(){
 
 	console.log('Push Registered ....')
 
+	
 	//Register Send
+	console.log('Sending Push Notification .......');
+
+	await fetch('/subscribe', {
+		method: 'POST',
+		body: JSON.stringify(subscription),
+		headers:{
+			'content-type': 'application/json'
+		}
+	});
+	console.log('Push sent......')
+
 }
 
 //When using your VAPID key in your web app, you'll need to convert the URL safe base64 string
