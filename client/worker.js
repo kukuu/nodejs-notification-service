@@ -2,7 +2,7 @@ console.log('Service Worker Loaded.......');
 
 self.addEventListener('push', e => {
 	
-	const data = e.data.jsoon();
+	const data = e.data.json();
 	console.log('Push Received...');
 
 	//Referencing the notification instance
@@ -12,4 +12,3 @@ self.addEventListener('push', e => {
 
 	});
 })
-
