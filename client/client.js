@@ -26,7 +26,7 @@ async function send(){
 
 	const subscription = await register.pushManager.subscribe({
 		userVisibleOnly: true,
-		applicationServerKey: urlBase64ToUnit8Array(publicVapidKey) 
+		applicationServerKey: urlBase64ToUint8Array(publicVapidKey) 
 	});
 
 	console.log('Push Registered ....')
