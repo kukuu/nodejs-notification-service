@@ -24,4 +24,6 @@ Identifies who is sending the push notification. Takes three paramenters:
 
 ```
 
+## NB
+
 The Keys MUST be stored in environmental variables before deployment.
