@@ -30,6 +30,8 @@ Identifies who is sending the push notification. Takes three paramenters:
 
 2. cd into the middleware in node_modules and run command "generate-vapid-keys". See screenshot - https://github.com/kukuu/nodejs-notification-service/tree/master/snapshots.
 
+Note - Don't use the key from here as it has been masked. Follow instructins above to generate your own Vapid Keys for encryption.
+
 3. The Keys MUST be stored in environmental variables before deployment.
 
 
