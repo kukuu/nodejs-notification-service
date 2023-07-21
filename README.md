@@ -11,9 +11,9 @@ Push notification with nodeJS and Service Worker
 3. Web-push
 ```
 
-## Vapid Keys 
+## Vapid Keys: Generating Private and Public Keys.
 
-Identifies who is sending the push notification. Takes three paramenters:
+Identifies who is sending the push notification. Takes three parameters:
 
 ```
 1. mailto
